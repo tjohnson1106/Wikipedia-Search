@@ -1,0 +1,19 @@
+{
+  "name": "wiki-search",
+  "version": "1.0.0",
+  "description": "Wikipedia Search Engine",
+  "main": "index.js",
+  "author": "Thomas Johnson",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "parcel": "^1.11.0",
+    "postcss-nested": "^4.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
