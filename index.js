@@ -39,7 +39,6 @@ const displayResults = (obj) => {
 ((global) => {
   document.getElementById("form").addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log("input value?", e.target[0].value);
     search(e.target[0].value);
   });
 })(window);
